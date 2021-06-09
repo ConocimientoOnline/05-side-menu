@@ -1,0 +1,79 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background: #000000;
+}
+.content-bd-menu-lateral{
+	width: 100%;
+	height: 100vh;
+	background: url("car.jpg");
+	background-size: 100% 100%;
+	background-position: center;
+	z-index: -1;
+}
+
+.container-he{
+	position: relative;
+	width: 100%;
+	height: 48px;
+	background: #000;
+	z-index: 10;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.tit{
+	font-size: 34px;
+	font-family: monospace;
+	font-weight: bold;
+	color: #fff;
+}
+
+.icon-menu3{
+	position: absolute;
+	right: 1em;
+	top: 20%;
+	font-size: 24px;
+	color: #fff;
+}
+
+.container-menu{
+	position: fixed;
+	width: auto;
+	min-width: auto;
+	height: 100vh;
+	right: -120%;
+	top: 0;
+	background: #fff;
+	z-index: 9;
+	display: flex;
+	justify-content: center;
+	transition: 500ms ease all;
+}
+
+.span{
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+}
+
+.el-con{
+	display: block;
+}
+
+.el-{
+	margin-top: 58px;
+}
+
+.el-, .el{
+	width: 100%;
+	padding: 20px;
+	font-size: 24px;
+	font-family: monospace;
+	font-weight: bold;
+	letter-spacing: .2rem;
+	border-bottom: 1px solid #000;
+}
